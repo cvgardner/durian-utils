@@ -8,4 +8,14 @@ setup(name='durian_utils',
       author_email='therealdurianirl@gmail.com',
       license='MIT',
       packages=['durian_utils'],
+      install_requires=[
+          'streamlink',
+          'pandas',
+          'numpy',
+          'imutils',
+          'opencv-python',
+          'pytesseract',
+          'tqdm',
+          'fuzzywuzzy'
+      ],
       zip_safe=False)

@@ -13,7 +13,7 @@ import requests
 import streamlink
 import tempfile
 import os
-import utils
+from . import utils
 
 class twitch_api(object):
     def __init__(self, client_id, client_secret):
